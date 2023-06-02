@@ -1,0 +1,143 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{background-color: #FFCD29;}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/** Nav **/ 
+header a{
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+/** colore nero per la pagina in cui si è - nav e footer**/
+.nav-project{
+    color: black;
+}
+
+.footer-project{
+    color: black;
+}
+
+.nav-contact{
+    color: black;
+}
+
+.footer-contact{
+    color: black;
+}
+
+header a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/** logo **/
+header h1{
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:large ;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+main, footer {
+    margin: auto;
+    padding: 20px;
+}
+
+/** Footer **/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/** Card **/
+div.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 40px auto;
+    gap: 35px;
+}
+
+/** Contact form**/
+.main-form{background-color: #FFCD29;}
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:black;
+  font-family: 'Inter', sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid black;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #EF401F; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+font-family: 'Inter', sans-serif;
+  width: 100%;
+  background:#F37158;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#EF401F; }
