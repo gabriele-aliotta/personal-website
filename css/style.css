@@ -100,6 +100,10 @@ div.container{
 .main-form{background-color: #FFCD29;}
 form { max-width:420px; margin:50px auto; }
 
+.titolo-contact{
+  text-align: center;
+}
+
 .feedback-input {
   color:black;
   font-family: 'Inter', sans-serif;
@@ -261,3 +265,31 @@ font-family: 'Inter', sans-serif;
     -webkit-transition-delay: 0.35s;
     transition-delay: 0.35s;
   }
+
+  img.img-project{
+    max-width: 80%;
+  }
+
+  .img-container{
+    text-align: center;
+  }
+
+  /** CTA **/
+.button{
+  align-items: center;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  transition-duration: 0.4s;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cta{
+  text-align: center;
+  margin-bottom: 100px;
+}
