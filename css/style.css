@@ -2,12 +2,14 @@ html, body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: auto;
 }
 
 main{background-color: #FFCD29;}
 
 img{
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 /** Nav **/ 
@@ -48,6 +50,11 @@ header h1{
     max-width:300px;
     min-width: 40px;
     display: block;
+}
+
+a{
+  min-height: 50px;
+  min-width: 50px;
 }
 
 header nav ul{
