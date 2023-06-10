@@ -2,8 +2,7 @@ html, body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: auto;
+    box-sizing: border-box;
 }
 
 main{background-color: #FFCD29;}
@@ -304,3 +303,6 @@ font-family: 'Inter', sans-serif;
   text-align: center;
   margin-bottom: 100px;
 }
+
+
+
